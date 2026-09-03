@@ -13,6 +13,15 @@ about:
 - identifier: http://purl.obolibrary.org/obo/DOID_10937
   name: impulse control disorder
   schemaKey: Disorder
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_a4WdpQW5JYPH0
+  name: delay discounting
+  schemaKey: GenericType
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a038
+  name: decision making
+  schemaKey: GenericType
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_50070dce14554
+  name: impulsivity
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -54,7 +63,7 @@ citation: Zhuang, Xiaowen; Lemak, Julia; Sridhar, Sadhana; Nelson, Alexandra B. 
   Abnormal Striatal Activity in a Mouse Model of Impulse Control Disorder in Parkinson’s
   Disease (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001177/draft
 contributor:
-- awardNumber: 1 R01 NS 101354-01A1
+- awardNumber: R01 NS101354
   identifier: https://ror.org/01s5ya894
   name: National Institutes of Health (NIH)
   roleName:
@@ -87,6 +96,7 @@ contributor:
   - identifier: https://ror.org/043mz5j54
     name: University of California, San Francisco
     schemaKey: Affiliation
+  identifier: 0000-0003-0041-3414
   includeInCitation: true
   name: Sridhar, Sadhana
   roleName:
@@ -112,6 +122,7 @@ contributor:
     name: University of California, San Francisco
     schemaKey: Affiliation
   email: alexandra.nelson@ucsf.edu
+  identifier: 0000-0002-9305-5662
   includeInCitation: true
   name: Nelson, Alexandra B.
   roleName:
@@ -128,6 +139,19 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
+- identifier: https://ror.org/03arq3225
+  includeInCitation: false
+  name: Michael J. Fox Foundation for Parkinson's Research
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: PF-LAUNCH-1248418
+  identifier: https://ror.org/005aa3k38
+  includeInCitation: false
+  name: Parkinson's Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-08-21T06:52:49.369009+00:00'
 description: In this project, we studied cognitive behavior and striatal activity
   in a mouse model of impulse control disorder in Parkinson’s disease in which we
@@ -155,7 +179,15 @@ description: In this project, we studied cognitive behavior and striatal activit
 ethicsApproval: []
 id: DANDI:001177/draft
 identifier: DANDI:001177
-keywords: []
+keywords:
+- delay discounting
+- impulsive decision-making
+- pramipexole
+- 6-OHDA lesion
+- dorsomedial striatum
+- optogenetics
+- single-unit electrophysiology
+- operant conditioning
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
